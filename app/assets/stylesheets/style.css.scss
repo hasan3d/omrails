@@ -1,0 +1,48 @@
+
+@import url(https://fonts.googleapis.com/css?family=Oxygen);
+
+$btn-primary-bg: green;
+
+@import 'bootstrap';
+
+
+body {
+  padding-top: 60px;
+  font-family: 'Oxygen', sans-serif;
+  background:  #f5f8fa;
+}
+.navbar-default {
+  background: #2882b5 !important;
+}
+.navbar-default .navbar-nav
+ {
+  li a {
+    color: rgba(255, 255, 255, 0.8);
+  }
+  li a:hover{
+    color: white;
+  }
+}
+ .navbar-default .navbar-brand {
+    color: rgba(255, 255, 255, 0.8);
+  }
+
+.navbar-default .pull-right {
+ li a {
+  color: rgba(255, 255, 255, 0.8);
+ }
+ li a:hover{
+    color: white;
+  }
+}
+footer {
+  margin-top: 50px;
+  color: #d3d3d3;
+  a {
+    color: gray;
+  }
+  a:hover {
+    color: red;
+  }
+}
+
