@@ -8,6 +8,8 @@ gem 'rails', '4.2.4'  #this was the original version of rails 4.2.4'
 gem 'devise'
 gem 'bootstrap-sass', '~> 3.3.5'
 gem 'autoprefixer-rails'
+gem 'simple_form'
+
 
 #gem 'mysql2', '~> 0.3.18'
 group :production do
