@@ -13,6 +13,15 @@ $navbar-default-brand-color: rgba(255, 255, 255, 0.8);
   margin-right: 0px;
 }
 
+div.row {
+	margin-left: 0px;
+  margin-right: 0px;
+}
+div.well {
+	margin: 0 auto;
+ 	border: 5px groove;
+  border-radius: 5px;
+}
 
 body {
   padding-top: 60px;
