@@ -3,20 +3,10 @@
 
 $btn-primary-bg: green;
 $navbar-default-brand-color: rgba(255, 255, 255, 0.8);
-
 @import 'bootstrap';
 
-// media queries for desktop
-@media (min-width:768px) {
-      
-    
-    // Style for desktop
-  input[type=email], input[type=password], input[type=text]  {
-    width: 371px;
-      
-  }
-    
-}
+
+
 
 .form-horizontal .form-group {
   margin-left: 0px;

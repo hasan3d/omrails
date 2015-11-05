@@ -13,3 +13,14 @@
  *= require_self
  */
 
+/* media queries for desktop */
+@media (min-width:768px) {
+      
+    
+    /* Style for desktop */
+  input[type=email], input[type=password], input[type=text]  {
+    width: 371px;
+      
+  }
+    
+}
