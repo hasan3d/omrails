@@ -13,13 +13,13 @@ default: &default
   adapter: mysql2
   encoding: utf8
   pool: 5
-  username: <%=ENV['C9_USER']%>
-  #password: Myhasan20
-  host: <%=ENV['IP']%>
+  username: root
+  password: Myhasan20
+  host: localhost
 
 development:
   <<: *default
-  database: c9
+  database: mysql
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
