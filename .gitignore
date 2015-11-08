@@ -20,3 +20,6 @@ doc/
 .project
 .idea
 database.yml
+
+#Igonore Paperclip uploaded files
+/public/system

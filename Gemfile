@@ -9,6 +9,8 @@ gem 'devise'
 gem 'bootstrap-sass', '~> 3.3.5'
 gem 'autoprefixer-rails'
 gem 'simple_form'
+gem "paperclip", "~> 4.3"
+
 
 
 #gem 'mysql2', '~> 0.3.18'
