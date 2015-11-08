@@ -5,7 +5,7 @@ Rails.application.routes.draw do
   # See how all your routes lay out with "rake routes".
  get 'about' => 'pages#about'
 
-root 'pages#home'
+root 'pins#index'
 
 
   # You can have the root of your site routed with "root"
