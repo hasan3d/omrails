@@ -51,7 +51,7 @@ body {
   }
 }
 footer {
-  margin-top: 50px;
+  margin-top:50px;
   color: #d3d3d3;
   a {
     color: gray;
@@ -61,7 +61,10 @@ footer {
   }
 }
 
-
+.showimg img {
+  width: 100%;
+  height: auto;
+}
 
 
 #pins {
@@ -71,9 +74,11 @@ footer {
 .box {
   margin: 5px;
   width: 214px;
-  float: left;
 }
 
 .box img {
   width: 100%;
+}
+p.description {
+  padding-top: 10px;
 }

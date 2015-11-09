@@ -11,6 +11,7 @@ gem 'autoprefixer-rails'
 gem 'simple_form'
 gem "paperclip", "~> 4.3"
 gem 'masonry-rails'
+gem 'jquery-turbolinks'
 
 
 #gem 'mysql2', '~> 0.3.18'
