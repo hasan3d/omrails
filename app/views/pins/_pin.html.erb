@@ -7,10 +7,17 @@
 		<%= pin.description %>
 	</p>	
 		<strong>
-			Posted by <%= pin.user.name %>
+			Uploaded by <%= pin.user.name %>
 		</strong>
+		<%= link_to like_pin_path(pin), class: "like", method: :put do %>
+		<button type ="button" class ="btn btn-success" aria-label="Left Align">
+		<span class="glyphicon glyphicon-heart" aria-hidden="true"></span>
+		<span class="badge"><%= pin.get_upvotes.size %></span>
+		</button>
+		<% end %>
 		  <% if current_user == pin.user %> 
-	<p>		  
+	<p>	
+		
 		<%= link_to 'Edit', edit_pin_path(pin) %>
 			<%= link_to 'Destroy', pin, method: :delete, data: { confirm: 'Are you sure?' } %>
 	</p>

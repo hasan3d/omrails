@@ -4,9 +4,7 @@ class User < ActiveRecord::Base
   # :confirmable, :lockable, :timeoutable and :omniauthable
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :trackable, :validatable
-         
-  # setup accessible (or protected) attributes for your model.
-  #attr_accessible :email, :password, :password_confirmation, :remember_me
-  #attribute_accessible :title, :body
+
+acts_as_voter
  has_many :pins 
 end

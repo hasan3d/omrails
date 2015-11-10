@@ -12,6 +12,7 @@ gem 'simple_form'
 gem "paperclip", "~> 4.3"
 gem 'masonry-rails'
 gem 'jquery-turbolinks'
+gem 'acts_as_votable', '~> 0.10.0'
 
 
 #gem 'mysql2', '~> 0.3.18'
