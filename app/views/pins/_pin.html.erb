@@ -5,10 +5,13 @@
 		<div class="panel-body">
 	 	<p class="pin.description">
 		<%= pin.description %>
-	</p>	
+	</p>
+	<p>	
 		<strong>
 			Uploaded by <%= pin.user.name %>
 		</strong>
+	</p>	
+	<p>	
 		<%= link_to like_pin_path(pin), class: "like", method: :put do %>
 		<button type ="button" class ="btn btn-success" aria-label="Left Align">
 		<span class="glyphicon glyphicon-heart" aria-hidden="true"></span>
@@ -16,10 +19,19 @@
 		</button>
 		<% end %>
 		  <% if current_user == pin.user %> 
-	<p>	
+	
 		
-		<%= link_to 'Edit', edit_pin_path(pin) %>
-			<%= link_to 'Destroy', pin, method: :delete, data: { confirm: 'Are you sure?' } %>
+		<%= link_to edit_pin_path(pin) do %>
+		
+		<span class="glyphicon glyphicon-edit" aria-hidden="true"></span> Edit
+
+		<% end %>
+
+		<%= link_to pin, method: :delete, data: { confirm: 'Are you sure?' } do %>
+		
+		<span class="glyphicon glyphicon-trash" aria-hidden="true"></span> Delete
+
+		<% end %>
 	</p>
 
 		<% end %> 
