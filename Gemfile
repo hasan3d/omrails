@@ -25,7 +25,7 @@ group :development, :test do
     gem 'mysql2', '~> 0.3.18'
 end
 
-gem 'heroku'
+gem 'heroku', '>= 3.99.3'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
