@@ -2,13 +2,13 @@ source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.2.4'  #this was the original version of rails 4.2.4'
+gem 'rails', '5.0.0' #this was the original version of rails 4.2.4'
 # Use mysql as the database for Active Record
 # devise gem
-gem 'devise'
+gem 'devise', '>= 4.0.0'
 gem 'bootstrap-sass', '~> 3.3.5'
 gem 'autoprefixer-rails'
-gem 'simple_form'
+gem 'simple_form', '>= 3.2.1'
 gem "paperclip", "~> 4.3"
 gem 'masonry-rails'
 gem 'jquery-turbolinks'
@@ -28,11 +28,11 @@ end
 gem 'heroku'
 
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 5.0'
+gem 'sass-rails', '~> 5.0', '>= 5.0.5'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
-gem 'coffee-rails', '~> 4.1.0'
+gem 'coffee-rails', '~> 4.1.1'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 gem "nokogiri", ">= 1.6.7.rc"
@@ -61,7 +61,7 @@ end
 
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> in views
-  gem 'web-console', '~> 2.0'
+  gem 'web-console', '~> 2.2', '>= 2.2.1'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
